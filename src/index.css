@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+  color: #2d3436;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-primary { background: #00A651; color: white; }
+.btn-primary:hover { background: #007a3c; }
+.btn-outline { background: transparent; border: 2px solid white; color: white; }
+.error-msg { color: #e74c3c; font-size: 0.875rem; margin-top: 0.5rem; }
